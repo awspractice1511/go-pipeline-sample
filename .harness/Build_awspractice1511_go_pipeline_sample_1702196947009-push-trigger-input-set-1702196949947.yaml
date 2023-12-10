@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_awspractice1511_go_pipeline_sample_1702196947009-push-trigger-input-set
+  identifier: Build_awspractice1511_go_pipeline_sample_1702196947009pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_awspractice1511_go_pipeline_sample_1702196947009
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
